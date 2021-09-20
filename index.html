@@ -1,0 +1,149 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="icon" type="image/svg+xml" href="img/favicon.svg">
+    <link rel="icon" type="image/png" href="img/favicon.png">
+    <title>Lucian Cardoso</title>
+
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div id="particles-js"></div>
+    <div class="container">
+        <div class="profile">
+            <img src="img/lucian.jpg" class="foto-perfil" alt="foto Lucian">
+            <h1>Lucian Cardoso</h1>
+            <h2 class="subtitle">💻 Developer Front-End | Java</h2>
+            <p>👇🏼 Acompanhe meus Projetos.</p>
+        </div>
+    
+        <ul class="social">
+            <li>
+                <a href="https://www.linkedin.com/in/lucian-cardoso-57903a7b/">
+                    <img src="img/linkedin.svg" alt="Linkedin">
+                </a>
+            </li>
+            <li>
+                <a href="https://github.com/luciancardoso">
+                    <img src="img/github.svg" alt="Github">
+                </a>
+            </li>
+            <li>
+                <a href="#">
+                    <img src="img/insta.svg" alt="Instagram">
+                </a>
+            </li>
+        </ul>
+    
+        <ul class="social-links">
+            <li>
+                <a href="https://zollweb.com.br/">
+                    <img src="img/aduana.svg" class="aduana" alt="Aduana">
+                    Sistema de Agendamento de Entrada
+                    <span>zoll web - entrada de container</span>
+                </a>
+            </li>
+            <li>
+                <a href="https://netflixclone-teste.netlify.app/">
+                    Projeto Basic Clone Netflix 
+                </a>
+            </li>
+            <li>
+                <a href="https://luciancardoso.github.io/Landing-Page-Estrela/index.html">
+                  Landing Page Estrela
+                  <span>Projeto Basic e Responsive</span>
+                </a>
+            </li>
+            <li>
+                <a href="https://luciancardoso.github.io/TeatroAmazonasWebsite/">
+                  Landing Page Teatro Amazonas
+                  <span>Projeto Basic e Responsive</span>
+                </a>
+            </li>
+        </ul>
+
+        <div class="">
+          <p>Developer by Lucian Cardoso. ❤️🚀</p>
+          <!-- <p>&copy; Todos os direitos reservados - 2021</p> -->
+        </div>
+    </div>
+</body>
+<script src="https://cdn.jsdelivr.net/particles.js/2.0.0/particles.min.js"></script>
+<script>
+    particlesJS("particles-js", {
+      particles: {
+        number: {
+          value: 1200,
+          density: { enable: true, value_area: 789.1476416322727 }
+        },
+        color: {
+          value: "#ffffff"
+        },
+        shape: {
+          type: "circle",
+          stroke: { width: 0, color: "#000000" },
+          polygon: { nb_sides: 5 },
+          image: { src: "img/github.svg", width: 100, height: 100 }
+        },
+        opacity: {
+          value: 0.48927153781200905,
+          random: false,
+          anim: { enable: true, speed: 0.2, opacity_min: 0, sync: false }
+        },
+        size: {
+          value: 2,
+          random: true,
+          anim: { enable: true, speed: 2, size_min: 0, sync: false }
+        },
+        line_linked: {
+          enable: false,
+          distance: 150,
+          color: "#ffffff",
+          opacity: 0.4,
+          width: 1
+        },
+        move: {
+          enable: true,
+          speed: 1,
+          direction: "none",
+          random: true,
+          straight: false,
+          out_mode: "out",
+          bounce: false,
+          attract: { enable: false, rotateX: 600, rotateY: 1200 }
+        }
+      },
+      interactivity: {
+        detect_on: "canvas",
+        events: {
+          onhover: {
+            enable: true,
+            mode: "bubble"
+          },
+          onclick: { enable: true, mode: "push" },
+          resize: true
+        },
+        modes: {
+          grab: { distance: 400, line_linked: { opacity: 1 } },
+          bubble: {
+            distance: 83.91608391608392,
+            size: 1,
+            duration: 3,
+            opacity: 1,
+            speed: 3
+          },
+          repulse: { distance: 200, duration: 0.4 },
+          push: { particles_nb: 4 },
+          remove: {
+            particles_nb: 2
+          }
+        }
+      },
+      retina_detect: true
+    });
+  </script>
+
+</html>
