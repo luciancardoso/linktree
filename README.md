@@ -14,4 +14,4 @@
 
 
 
-                                               Developer by Lucian Cardoso.❤️🚀
+                                             Developer by Lucian Cardoso.❤️🚀
